@@ -18,8 +18,8 @@ def main_janela():
     if USER_INP is not None:
         print("Hello", USER_INP)
         # os.system(
-        #     "instapy -u raspejammaceio -p \"1597563Al\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \""+msg+ "\".")
-        print("instapy -u raspejammaceio -p \"1597563Al\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \"" + USER_INP + "\".")
+        #     "instapy -u username -p \"senha\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \""+msg+ "\".")
+        print("instapy -u gitgit -p \"123456\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \"" + USER_INP + "\".")
     else:
         print("Hello", USER_INP)
         ROOT.destroy()
