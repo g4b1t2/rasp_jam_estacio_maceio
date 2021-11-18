@@ -17,15 +17,14 @@ def main_janela():
 
     if USER_INP is not None:
         print("Hello", USER_INP)
-        # os.system(
-        #     "instapy -u username -p \"senha\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \""+msg+ "\".")
+        # os.system("instapy -u username -p \"senha\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \""+msg+ "\".")
         print("instapy -u "seu username" -p "sua Senha" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \"" + USER_INP + "\".")
     else:
         print("Hello", USER_INP)
         ROOT.destroy()
 
     # USER_INP = messagebox.askquestion(
-    #     'Question', 'Do you like corn?')
+    #     'Question', 'Voce Deseja contnuar')
 
 
 def main(args):
