@@ -19,7 +19,7 @@ def main_janela():
         print("Hello", USER_INP)
         # os.system(
         #     "instapy -u username -p \"senha\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \""+msg+ "\".")
-        print("instapy -u gitgit -p \"123456\" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \"" + USER_INP + "\".")
+        print("instapy -u "seu username" -p "sua Senha" -f /home/pi/Documentos/webcam_fotos/fotoEnviar.jpg -t \"" + USER_INP + "\".")
     else:
         print("Hello", USER_INP)
         ROOT.destroy()
